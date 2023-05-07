@@ -11,6 +11,8 @@ A **FAST** node.js proxy checker that validates and filter out working **SOCKS4*
 - Capable of processing/checking lots of proxies from raw data
 - Output as an array in `JSON` form (both `socks5.json` & `socks4.json`)
 
+<img width="618" alt="image" src="https://user-images.githubusercontent.com/81070048/236698544-ae6d2149-e2c9-48f2-8efb-b7b1d8c90ecc.png">
+
 ## Setup
 - `socks4` & `socks5` proxies list urls are included, but feel free to edit or add more urls to the `socks4URL` & `socks5URL` array. 
 > Note that the lists (contents that are fetched from the urls) **must be formatted** in [this way (example)](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt)
