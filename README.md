@@ -1,5 +1,5 @@
 # "Multi Thread" Proxy Checker
-Multi thread node.js proxy checker that validates and filter out working **SOCKS4** & **SOCKS5** proxies from a **raw & unfiltered** source
+A **FAST** node.js proxy checker that validates and filter out working **SOCKS4** & **SOCKS5** proxies from a **raw & unfiltered** source
 
 > The scripts are not using up lots of CPU, but it's just significantly faster than running a single instance (runner)
 
