@@ -38,7 +38,7 @@ for (let i = 0; i < proxies.length; i += (proxies.length / thread_count)) {
 }
 async function createWorker(i) {
     return new Promise(function (resolve, reject) {
-      const worker = new Worker("./runner.js", {
+      const worker = new Worker("./src/runner.js", {
         workerData: { thread_count: i, proxie },
       });
       worker.on("message", (data) => {
