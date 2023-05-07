@@ -14,7 +14,7 @@ const axios = require('axios');
         if(r.status == 200) {
             parentPort.postMessage(proxie)
         }
-    }).catch(err=> {})
+    })
     }catch(e) {}
     parentPort.postMessage(`tested-${proxie}`);
     }
