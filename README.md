@@ -4,14 +4,15 @@ A **FAST** node.js proxy checker that validates and filter out working **SOCKS4*
 > The scripts are not using up lots of CPU, but it's just significantly faster than running a single instance (runner)
 
 ## About
-<img width="418" alt="image" src="https://user-images.githubusercontent.com/81070048/236698544-ae6d2149-e2c9-48f2-8efb-b7b1d8c90ecc.png">
-
 - Easy to use
 - Multi threaded (configurable)
 - Significantly faster
 - No duplicated entries
 - Capable of processing/checking lots of proxies from raw data
 - Output as an array in `JSON` form (both `socks5.json` & `socks4.json`)
+
+<img width="418" alt="image" src="https://user-images.githubusercontent.com/81070048/236698544-ae6d2149-e2c9-48f2-8efb-b7b1d8c90ecc.png">
+
 
 ## Setup
 - `socks4` & `socks5` proxies list urls are included, but feel free to edit or add more urls to the `socks4URL` & `socks5URL` array. 
