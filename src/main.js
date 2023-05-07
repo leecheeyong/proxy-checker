@@ -1,3 +1,11 @@
+const socks4URL = ['https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt',
+                   'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt',
+                   'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt'];
+
+const socks5URL = ['https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt', 
+                   'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt',
+                   'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt'];
+
 const axios = require('axios')
 const chalk = require('chalk');
 const { Worker } = require("worker_threads");
@@ -6,8 +14,6 @@ const fs = require('fs');
 const validSocks4 = [];
 const validSocks5 = [];
 var validCount = 0;
-const socks4URL = ['https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt', 'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt', 'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt'];
-const socks5URL = ['https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt', 'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt', 'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt'];
 var socks4 = [];
 var socks5 = [];
 const timeStart = performance.now();
