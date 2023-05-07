@@ -8,6 +8,7 @@ A **FAST** node.js proxy checker that validates and filter out working **SOCKS4*
 - Multi threaded (configurable)
 - Significantly faster
 - No duplicated entries
+- Capable of processing/checking lots of proxies from raw data
 - Output as an array in `JSON` form (both `socks5.json` & `socks4.json`)
 
 ## Setup
